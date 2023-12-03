@@ -1,0 +1,214 @@
+h3{
+    text-align: center;
+    color: gray;
+   
+    
+}
+h6{
+text-align: center;
+    color: gray;
+   margin: -20px;
+}
+ul{
+list-style-type: none;
+margin-left: 350px;
+margin-right: 347px;
+padding: 10px;
+overflow: hidden;
+background-color: white;
+color: gray;
+text-align: center;
+border: solid 1px black;
+border-radius: 5px;
+
+}
+li{
+float:left;
+
+}
+
+li a{
+display: block;
+color: gray;
+text-align: center;
+padding: 1px 27px;
+border-radius: 2px;
+text-decoration: none;
+
+
+}
+
+ul li:nth-child(-n+4) a{
+  border-right: solid 1px black;
+}
+li a:hover{
+background-color:black;
+
+}
+.navbar{
+border: 1px;
+
+margin-top:50px;
+
+}
+
+
+
+.picturediv {
+  height: 91%;
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  background-size: 100% 100%;
+  box-shadow: 1px 2px 5px;
+  animation: slider 9s infinite linear;
+}
+@keyframes slider {
+  0% {
+      background-image: url("image1.jpg");
+  }
+  30% {
+      background-image: url("image2.jpg");
+  }
+  70% {
+      background-image: url("image3.jpg");
+  }
+  100% {
+      background-image: url("image4.jpg");
+  }
+}
+.mostpopular{
+text-align: center;
+background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+margin-top: 45%;
+padding-top:  20px;
+padding-bottom: 20px;
+margin-left: 118px;
+margin-right: 118px;
+border-radius: 10px;
+
+
+
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+ background-color:  rgb(248, 247, 247);
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 118px;
+  margin-right: 118px;
+  margin-bottom: 80px;
+  padding: 60px 70px 120px 40px;
+}
+
+.image-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.image-item img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+.image-item p {
+  margin-top: 10px;
+}
+
+.detail-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: gainsboro;
+  color:black;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.detail-button:hover{
+  color:white;
+  background-color: black;
+}
+
+
+
+.main{
+  border-radius: 1px;
+  border:solid 1px black;
+  box-shadow: 2px 2px 2px 2px;
+  padding-bottom: 20px;
+}
+
+
+
+.footer{
+  display: flex;
+    justify-content: flex-end;
+}
+.appartmentforrent{
+  position: relative;
+    right: 40px; 
+    display: inline-block;
+    background-color: rgb(248, 247, 247);
+
+}
+.saveyourtime{
+  margin-right: 175px;
+  margin-left: 20px;
+  display: inline block;
+  background-color: rgb(248, 247, 247);
+  
+}
+.appartmentforrent img{
+  float: left;
+  display: block;
+height: auto;
+z-index: -1;
+background:gainsboro ;
+}
+.saveyourtime img{
+  float: left;
+ display: block;
+background-color: rgb(248, 247, 247);
+  height: auto;
+  z-index: -1;
+  
+ 
+
+}
+
+.footer{
+  background-color:rgb(248, 247, 247);
+  border-radius: 10px;
+  padding-top: 90px;
+  padding-bottom: 80px;
+  margin-right: 117px;
+  margin-left: 115px;
+  border: solid 1px black;
+  height: 100%;
+  margin-top: -80px;
+}
+.saveyourtime a{
+  color: black;
+  background-color: rgb(248, 247, 247);
+  border-radius: 15px;
+  text-decoration: none;
+
+}
+.appartmentforrent a{
+  color: black;
+  background-color: rgb(248, 247, 247);
+  border-radius: 15px;
+  text-decoration: none;
+
+}
